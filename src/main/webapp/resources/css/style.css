@@ -1,0 +1,254 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper{
+    background-color: #033226;
+    height: 100%;
+    font-size: medium;
+    color: #259378;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+.long-wrapper{
+    background-color: #033226;
+    font-size: medium;
+    color: #259378;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+a {
+    color: #259378;
+}
+
+a:hover {
+    color: #033226;
+    background-color: #ff6633;
+}
+
+header{
+    height: 44px;
+    background-color: #259378;
+    font-size: 26pt;
+    color: #033226;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 30px;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+.light-text{
+    color: azure;
+    font-size: 18pt;
+    padding-bottom: 8px;
+}
+
+.dark-text{
+     color: #259378;
+     font-size: 18pt;
+     padding-bottom: 8px;
+ }
+
+.user-logged-text{
+    color: #033226;
+    font-size: 16pt;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+
+.text-good-news{
+    color: #259378;
+    font-size: 16pt;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.text-bad-news{
+    color: #ff6633;
+    font-size: 16pt;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.dark-text-small{
+    color: #259378;
+    font-size: 13pt
+}
+
+#content{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.picture{
+    text-align: center;
+}
+
+#page-content{
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+
+
+/*================== ERRORS ===================*/
+.content-error{
+    padding: 30px;
+    background: #033226;
+}
+
+.error-exception{
+
+    color: #259378;
+    background: #033226;
+    border: 2px solid #259378;
+
+    padding: 14px;
+    font-family: "Courier New";
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+
+
+/*============ DIRECTORIES ============*/
+
+#content-table-dirs{
+    padding: 30px;
+    background: #033226;
+}
+#table-dirs{
+    color: #259378;
+    background: #033226;
+    font-size: 13pt;
+    font-weight: bold;
+}
+#table-dirs th{
+    color: #033226;
+    background: #259378;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+#table-dirs td{
+    color: #259378;
+    background: #033226;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+#table-dirs tr:hover td{
+    color: #033226;
+    background: #ff6633;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+
+/*==========  FILES ===============*/
+#content-files{
+    padding: 30px;
+    background: #033226;
+}
+#table-files{
+    color: #259378;
+    background: #033226;
+    font-size: 13pt;
+    font-weight: bold;
+}
+#table-files th{
+    color: #033226;
+    background: #259378;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+#table-files td{
+    color: #259378;
+    background: #033226;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+#table-files tr:hover td{
+    color: #033226;
+    background: #ff6633;
+    font-size: 13pt;
+    padding: 4px;
+}
+
+
+
+/*==========  INPUT ===============*/
+
+::placeholder {
+    color: #033226;
+    opacity: 0.85;
+    font-size: 12pt;
+    font-family: "Courier New";
+}
+
+#content-add-user{
+    padding:20px 50px;
+    background: #033226;
+}
+
+.form-element{
+    margin: 12px 0;
+}
+
+.form-element select{
+    background: #259378;
+    color: #033226;
+    font-size: 13pt;
+    font-family: "Courier New";
+    font-weight: bold;
+
+    padding: 3px;
+}
+
+.form-element input{
+    background: #259378;
+    color: #033226;
+    font-size: 13pt;
+    font-family: "Courier New";
+    font-weight: bold;
+
+    padding: 3px;
+}
+.form-element input:focus{
+    color: #033226;
+    background: #ff6633;
+}
+
+.form-element .error-message{
+    color: #ff6633;
+    font-size: 13pt;
+
+}
+
+input[type="submit"]{
+    background: #033226;
+    color: #259378;
+    border: 2px solid #259378;
+    padding: 5px 12px;
+    margin-top: 10px;
+    font-size: 15pt;
+
+    font-family: "Courier New";
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    background: #ff6633;
+    color: #033226;
+    border: 2px solid #033226;
+}
